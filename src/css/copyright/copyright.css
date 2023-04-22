@@ -1,0 +1,22 @@
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--branco);
+  text-align: center;
+}
+
+.copyright__titulo {
+  font-size: 2.5rem;
+}
+
+.copyright__txt {
+  font-size: 1.6rem;
+}
+
+.copyright__link {
+  font-size: 1.6rem;
+  color: var(--branco);
+}
+
