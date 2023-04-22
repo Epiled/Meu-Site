@@ -1,10 +1,10 @@
 .habilidades {
-  background-image:
+  /* background-image:
     linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(225, 0, 0, 0.2) 100%),
     linear-gradient(180deg, var(--preto-60), var(--preto-60)),
     url(../../../assets/fundos/giphy-montanhas.gif);
   background-position: left top, left top, center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .habilidades__lista {
@@ -31,7 +31,7 @@
   margin: 1rem 0 0 0;
 }
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 1024px) {
   .habilidades__lista {
     gap: 2rem;
   }
