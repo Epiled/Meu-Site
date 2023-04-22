@@ -1,0 +1,21 @@
+:root {
+  --cor-principal: #BF0600;
+  --cor-principal-6: #bf06000f;
+  --cor-principal-25: #bf060040;
+  --cor-principal-60: #BF060099;
+
+  --cor-fundo-menu: #0A0909CC;
+  --cor-fundo-1: #0A0909;
+  --cor-fundo-1-25: #0A090940;
+  --cor-fundo-1-75: #0a0909bf;
+  --cor-fundo-2: #BF060040;
+
+  --altura-menu: 5rem;
+
+  --preto-20: #00000033;
+  --preto-60: #00000099;
+  --branco: #FFFFFF;
+
+  --query-tablet: 1028px;
+  --query-desktop: 1440px;
+}

@@ -1,0 +1,58 @@
+.habilidades {
+  background-image:
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(225, 0, 0, 0.2) 100%),
+    linear-gradient(180deg, var(--preto-60), var(--preto-60)),
+    url(../../../assets/fundos/giphy-montanhas.gif);
+  background-position: left top, left top, center;
+  background-size: cover;
+}
+
+.habilidades__lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  justify-content: center;
+}
+
+.habilidades__item {
+  width: 12.5rem;
+  padding: 1rem;
+  background: var(--cor-principal-25);
+  border: .1rem solid var(--cor-principal);
+  backdrop-filter: blur(.5rem);
+  list-style: none;
+}
+
+.habilidades__subtitulo {
+  text-align: center;
+  color: var(--branco);
+  font-size: 2rem;
+  margin: 1rem 0 0 0;
+}
+
+@media screen and (min-width: 1028px) {
+  .habilidades__lista {
+    gap: 2rem;
+  }
+
+  .habilidades__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    width: calc(20% - 1.6rem);
+    text-align: center;
+    max-width: 15rem;
+  }
+
+  .habilidades__icone {
+    display: inline-block;
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+}
