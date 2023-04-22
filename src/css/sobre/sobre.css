@@ -1,9 +1,11 @@
 .sobre {
-  background-image: 
+  /* background-image: 
   linear-gradient(
     155deg, var(--cor-principal-25), 
     var(--cor-principal-6), 
     transparent, 
     var(--cor-principal-6), 
-    var(--cor-principal-25));
+    var(--cor-principal-25)); */
+    padding: 5rem 0 0 0;
+    background: var(--branco);
 }
