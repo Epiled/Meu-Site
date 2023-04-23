@@ -6,6 +6,7 @@
   color: var(--cor-font-1);
   background: var(--branco);
   text-align: center;
+  padding: 5rem 3rem;
 }
 
 .copyright__titulo {
