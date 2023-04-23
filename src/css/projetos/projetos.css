@@ -25,7 +25,7 @@
 }
 
 .projetos__imagem {
-  height: 25rem;
+  height: 40vw;
   object-fit: cover;
 }
 
@@ -69,12 +69,16 @@
   }
 
   .projetos__imagem {
-    height: 20rem;
+    height: 20vw;
   }
 }
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 1024px) {
   .projetos__lista {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .projetos__imagem {
+    height: 15vw;
   }
 }
