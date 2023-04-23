@@ -49,10 +49,26 @@ class ProjetoView {
     const artigoTxt = document.createElement('p');
     artigoTxt.classList.add('artigo__txt');
 
+    const artigoTecnologiasTitulo = document.createElement('h4');
+    artigoTecnologiasTitulo.classList.add('artigo__titulo');
+
+    const artigoListaTecnologias = document.createElement('ul');
+    artigoListaTecnologias.classList.add('artigo__lista', 'artigo__lista--tecnologia');
+
+    projeto.tecnologias.forEach(tecnologia => {
+      const artigoItem = document.createElement('li');
+      artigoItem.textContent = tecnologia;
+      artigoListaTecnologias.appendChild(artigoItem);
+    });
+
     const artigoLista = document.createElement('ul');
     artigoLista.classList.add('artigo__lista');
 
-    const artigoItem = document.createElement('li');
+    projeto.infos.forEach(info => {
+      const artigoInfo = document.createElement('li');
+      artigoInfo.textContent = info;
+      artigoLista.appendChild(artigoInfo);
+    })
 
     const artigoLinks = document.createElement('div');
     artigoLinks.classList.add('artigo__links');
@@ -64,6 +80,7 @@ class ProjetoView {
     artigoTitulo.textContent = `${projeto.nomeProjeto}`;
     artigoTxt.textContent = `${projeto.txt}`;
     artigoFechar.textContent = `X`;
+    artigoTecnologiasTitulo.textContent = 'Tecnologias';
 
     [projetoBtn, artigoFechar].forEach(btn => {
       btn.addEventListener('click', () => {
@@ -71,7 +88,14 @@ class ProjetoView {
       });
     });
 
-    artigoContainer.append(artigoTitulo, artigoTxt, artigoFechar);
+    artigoContainer.append(
+      artigoTitulo
+      , artigoTxt
+      , artigoTecnologiasTitulo
+      , artigoListaTecnologias
+      , artigoLista
+      , artigoFechar
+      );
     artigo.append(artigoMidia, artigoContainer);
 
     projetoIntro.append(projetoTitulo, projetoTxt, projetoBtn, artigo);

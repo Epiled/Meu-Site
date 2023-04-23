@@ -8,7 +8,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding: 5rem 3rem;
+  padding: 5rem 3rem 0 3rem;
 }
 
 .bloco-alt {
@@ -17,12 +17,11 @@
 
 .bloco__titulo {
   border-radius: .5rem;
-  border: .2rem solid var(--cor-principal);
   color: var(--branco);
   display: inline-block;
   font-size: 3.2rem;
   font-weight: 400;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 3rem auto;
   padding: 1rem 2rem;
   text-align: center;
   transition: transform .6s ease-in-out;
@@ -41,9 +40,8 @@
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  padding: 5rem 3rem;
-  color: var(--cor-font-1);
-  border-radius: 0 10rem;
+  padding: 0 3rem;
+  color: var(--branco);
 }
 
 .bloco__divisao--alt {
@@ -75,5 +73,6 @@
 
   .bloco__imagem {
     flex: 1;
+    height: 45rem;
   }
 }

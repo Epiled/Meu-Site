@@ -18,7 +18,7 @@
 
 .artigo--ativo {
   opacity: 1;
-  transform: translate(-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   z-index: 1;
 }
 
@@ -45,6 +45,11 @@
 .artigo__lista {
   font-size: 2.4rem;
   list-style-position: inside;
+}
+
+.artigo__lista--tecnologia {
+  display: flex;
+  flex-direction: row;
 }
 
 .artigo__fechar {
