@@ -16,7 +16,10 @@
 }
 
 .habilidades__item {
+  display: flex;
+  flex-direction: column;
   width: 12.5rem;
+  height: 12.5rem;
   padding: 1rem;
   background: var(--cor-principal-25);
   border: .1rem solid var(--cor-principal);
@@ -41,10 +44,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    aspect-ratio: 1;
     width: calc(20% - 1.6rem);
+    height: calc(20% - 1.6rem);
     text-align: center;
     max-width: 15rem;
+    max-height: 15rem;
   }
 
   .habilidades__icone {
