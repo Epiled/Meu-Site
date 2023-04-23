@@ -3,6 +3,7 @@
   linear-gradient(120deg, var(--preto-20), var(--preto-20)),
   url(../../../assets/fundos/giphy-vortex.gif);
   background-size: cover; */
+  padding: 5rem 3rem;
 }
 
 .contatos__lista {
@@ -44,7 +45,7 @@
   font-size: 2rem;
 }
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 1024px) {
   .contatos__item {
     width: calc((100% - 6rem) / 3);
   }
