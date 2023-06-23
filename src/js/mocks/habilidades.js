@@ -1,7 +1,7 @@
 const habilidades = {
   html : {
     texto: 'HTML5',
-    imagem: '../../../assets/svg/html5.svg',
+    imagem: './assets/svg/html5.svg',
   },
   css : {
     texto: 'CSS3',
