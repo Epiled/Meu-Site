@@ -20,7 +20,7 @@ const projetos = [
       repositorio : 'https://github.com/Epiled/barril-de-cerveja',
       host : 'epiled.github.io/barril-de-cerveja/',
     },
-    video: 'barril-de-cerveja/barril-de-cerveja.mp4',
+    video: 'barril-de-cerveja/barril-de-cerveja.webm',
     exibir: false,
   },
   {
@@ -41,7 +41,7 @@ const projetos = [
       repositorio : 'https://github.com/Epiled/yellow-battery',
       host : 'epiled.github.io/yellow-battery/',
     },
-    video: 'yellow-battery/yellow-battery.mp4',
+    video: 'yellow-battery/yellow-battery.webm',
     exibir: false,
   },
   {
@@ -60,7 +60,7 @@ const projetos = [
       repositorio : 'https://github.com/Epiled/alura-combo',
       host : 'https://epiled.github.io/alura-combo/',
   },
-    video: 'alura-combo/alura-combo.mp4',
+    video: 'alura-combo/alura-combo.webm',
     exibir: false,
   },
   {
@@ -80,7 +80,7 @@ const projetos = [
       repositorio : 'https://github.com/Epiled/alura-books',
       host : 'epiled.github.io/alura-books/',
     },
-    video: 'alura-books/alura-books.mp4',
+    video: 'alura-books/alura-books.webm',
     exibir: false,
   },
   {
@@ -100,7 +100,7 @@ const projetos = [
       repositorio : 'https://github.com/Epiled/alura-spa',
       host : 'epiled.github.io/alura-spa/',
   },
-    video: 'alura-spa/alura-spa.mp4',
+    video: 'alura-spa/alura-spa.webm',
     exibir: false,
   },
   {
@@ -122,7 +122,7 @@ const projetos = [
       repositorio : 'https://github.com/Epiled/Spotify',
       host : 'epiled.github.io/Spotify/',
     },
-    video: 'spotify/spotify.mp4',
+    video: 'spotify/spotify.webm',
     exibir: false,
   },
 ]
