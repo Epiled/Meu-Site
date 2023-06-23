@@ -22,8 +22,15 @@
   z-index: 1;
 }
 
+.artigo__geral {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .artigo__midia {
   flex: 1;
+  width: 100%;
 }
 
 .artigo__container {
@@ -50,6 +57,13 @@
 .artigo__lista--tecnologia {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1rem;
+}
+
+.artigo__tecnologia {
+  height: 5rem;
 }
 
 .artigo__fechar {
@@ -60,11 +74,46 @@
   cursor: pointer;
 }
 
+.artigo__botoes {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.artigo__botao {
+  padding: .5rem 1.5rem;
+  font-size: 1.6rem;
+  color: var(--branco);
+  text-decoration: none;
+  background: var(--cor-principal);
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  transition: background .5s;
+}
+
+.artigo__botao:hover {
+  background: var(--cor-fundo-1-75);
+}
+
 @media screen and (min-width: 768px) {
   .artigo {
     position: fixed;
     top: 50%;
     width: calc(100% - 12rem);
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .artigo__geral {
+    flex-direction: row;
+  }
+
+  .artigo__midia {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .artigo__item {
+    font-size: 1.6rem;
   }
 }

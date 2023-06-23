@@ -5,9 +5,6 @@
   background: var(--cor-fundo-1);
 }
 
-.corpo[class*='ativo'] {
-  overflow: hidden;
-}
 
 .corpo[class*='ativo']::after {
   content: '';

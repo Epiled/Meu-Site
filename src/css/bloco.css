@@ -1,10 +1,4 @@
 .bloco {
-  /* background-image: linear-gradient(
-    120deg, var(--cor-principal), 
-    var(--cor-principal-25), 
-    transparent, 
-    var(--cor-principal-25), 
-    var(--cor-principal)); */
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -53,6 +47,37 @@
 .bloco__txt {
   font-size: 2rem;
   line-height: normal;
+}
+
+.bloco__link {
+  border-bottom: .1rem solid var(--cor-principal);
+  color: var(--branco);
+  font-size: inherit;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bloco__link:hover {
+  background-position-y: 0%, 100%;
+}
+
+.bloco__link::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--cor-principal);
+  z-index: -1;
+  transition: top .3s;
+}
+
+.bloco__link:hover::before {
+  top: 0;
 }
 
 @media screen and (min-width: 1024px) {

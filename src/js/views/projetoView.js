@@ -4,6 +4,10 @@ class ProjetoView {
   }
 
   render(projeto) {
+    this.criaThumbArtigo(projeto);
+  }
+
+  criaThumbArtigo(projeto) {
     const projetoListaItem = document.createElement('li');
     projetoListaItem.dataset.projetosListaItem = '';
     projetoListaItem.classList.add('projetos__item');
@@ -30,17 +34,40 @@ class ProjetoView {
     projetoTxt.textContent = `${projeto.descricao}`;
     projetoBtn.textContent = `Leia mais...`;
 
+    const projetoArtigo = this.criaConteudoArtigo(projeto);
+
+    projetoBtn.addEventListener('click', () => {
+      this.showArtigo(projetoArtigo);
+    });
+
+    projetoIntro.append(
+      projetoTitulo
+      , projetoTxt
+      , projetoBtn
+      , projetoArtigo
+    );
+    projetoListaItem.append(projetoThumb, projetoIntro);
+
+    return this.view.appendChild(projetoListaItem);
+  }
+
+  criaConteudoArtigo(projeto) {
+    // Artigo
     const artigo = document.createElement('article');
     artigo.dataset.projetoArtigo = '';
     artigo.classList.add('artigo');
 
+    const artigoGeral = document.createElement('div');
+    artigoGeral.classList.add('artigo__geral');
+
     const artigoContainer = document.createElement('div');
     artigoContainer.classList.add('artigo__container');
 
-    const artigoMidia = document.createElement('img');
+    const artigoMidia = document.createElement('video');
     artigoMidia.src = `./assets/projetos/${projeto.video}`;
-    artigoMidia.width = artigoMidia.width;
-    artigoMidia.height = artigoMidia.height;
+    artigoMidia.controls = true;
+    artigoMidia.muted = true;
+
     artigoMidia.classList.add('artigo__midia');
 
     const artigoTitulo = document.createElement('h4');
@@ -55,9 +82,15 @@ class ProjetoView {
     const artigoListaTecnologias = document.createElement('ul');
     artigoListaTecnologias.classList.add('artigo__lista', 'artigo__lista--tecnologia');
 
+    // Tecnologias do Artigo
     projeto.tecnologias.forEach(tecnologia => {
       const artigoItem = document.createElement('li');
-      artigoItem.textContent = tecnologia;
+      const artigoTecnologia = document.createElement('img');
+      artigoTecnologia.classList.add('artigo__tecnologia');
+
+      artigoTecnologia.src = tecnologia;
+
+      artigoItem.appendChild(artigoTecnologia);
       artigoListaTecnologias.appendChild(artigoItem);
     });
 
@@ -66,9 +99,11 @@ class ProjetoView {
 
     projeto.infos.forEach(info => {
       const artigoInfo = document.createElement('li');
+      artigoInfo.classList.add('artigo__item');
       artigoInfo.textContent = info;
+
       artigoLista.appendChild(artigoInfo);
-    })
+    });
 
     const artigoLinks = document.createElement('div');
     artigoLinks.classList.add('artigo__links');
@@ -80,13 +115,12 @@ class ProjetoView {
     artigoTitulo.textContent = `${projeto.nomeProjeto}`;
     artigoTxt.textContent = `${projeto.txt}`;
     artigoFechar.textContent = `X`;
-    artigoTecnologiasTitulo.textContent = 'Tecnologias';
 
-    [projetoBtn, artigoFechar].forEach(btn => {
-      btn.addEventListener('click', () => {
-        this.showArtigo(artigo);
-      });
+    artigoFechar.addEventListener('click', () => {
+      this.showArtigo(artigo);
     });
+
+    artigoTecnologiasTitulo.textContent = 'Tecnologias';
 
     artigoContainer.append(
       artigoTitulo
@@ -95,20 +129,45 @@ class ProjetoView {
       , artigoListaTecnologias
       , artigoLista
       , artigoFechar
-      );
-    artigo.append(artigoMidia, artigoContainer);
+    );
+    artigoGeral.append(artigoMidia, artigoContainer);
 
-    projetoIntro.append(projetoTitulo, projetoTxt, projetoBtn, artigo);
-    projetoListaItem.append(projetoThumb, projetoIntro);
+    const artigoLinksExternos = this.criaBotoes(projeto.links);
 
-    this.view.appendChild(projetoListaItem);
+    artigo.append(artigoGeral, artigoLinksExternos);
+
+    return artigo;
+  }
+
+  criaBotoes(links) {
+
+    const containerBotoes = document.createElement('div');
+    containerBotoes.classList.add('artigo__botoes');
+
+    const linksExterno = [];
+    Object.keys(links).forEach(key => {
+      const link = document.createElement('a');
+      link.classList.add('artigo__botao');
+      link.setAttribute('target', '_blank');
+      link.textContent = key;
+      link.href = links[key];
+
+      link.getAttribute('href') != '' ? linksExterno.push(link) : '';
+        
+      //console.log(key, links[key]);
+    });
+
+    linksExterno.forEach(link => {
+      containerBotoes.append(link);
+    })
+
+    return containerBotoes;
   }
 
   showArtigo(artigo) {
     artigo.classList.toggle('artigo--ativo');
     document.body.classList.toggle('ativo');
   }
-
 }
 
 export default ProjetoView;

@@ -1,8 +1,4 @@
 .contatos {
-  /* background-image: 
-  linear-gradient(120deg, var(--preto-20), var(--preto-20)),
-  url(../../../assets/fundos/giphy-vortex.gif);
-  background-size: cover; */
   padding: 5rem 3rem;
 }
 
@@ -38,11 +34,11 @@
 }
 
 .contatos__titulo {
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: lighter;
 }
 
 .contatos__link {
   color: var(--branco);
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
