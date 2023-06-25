@@ -77,3 +77,13 @@
     height: 15vw;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .projetos__lista {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .projetos__imagem {
+    height: 10vw;
+  }
+}
