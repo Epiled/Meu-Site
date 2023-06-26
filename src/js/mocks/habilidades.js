@@ -58,6 +58,10 @@ const habilidades = {
   swiper : {
     texto: 'Swiper',
     imagem: './assets/svg/swiper.svg',
+  },
+  wordpress : {
+    texto: 'wordpress',
+    imagem: './assets/svg/wordpress.svg',
   }
 };
 
