@@ -1,28 +1,28 @@
 import tecnologias from "./habilidades.js";
 const projetos = [
-  {
-    thumb: 'barril-de-cerveja/thumb-barril-de-cerveja.webp',
-    nomeProjeto: 'Barril de Cerveja',
-    descricao: 'Site blog sobre cervejas com sistema de administração, gerenciamento de usuarios e conteudo.',
-    tecnologias: [
-      tecnologias.html.imagem,
-      tecnologias.css.imagem,
-      tecnologias.javascript.imagem,
-      tecnologias.node.imagem,
-      tecnologias.handlebars.imagem,
-      tecnologias.mysql.imagem,
-    ],
-    texto: 'O projeto mais ambicioso da minha vida um site completo, com sistema internos de administração e gerenciamneto de conteudo',
-    infos: [
-      'Área de adminstração', 'Sistema de Login', 'Registrar novos usuarios', 'Subir imagens', 'Criar novas postagens', 'Sistema de Gerecncimaneto de conteudo', 'Gerenciamnto de usuarios',
-    ],
-    links: {
-      repositorio: 'https://github.com/Epiled/barril-de-cerveja',
-      host: 'epiled.github.io/barril-de-cerveja/',
-    },
-    video: 'barril-de-cerveja/barril-de-cerveja.webm',
-    exibir: false,
-  },
+  // {
+  //   thumb: 'barril-de-cerveja/thumb-barril-de-cerveja.webp',
+  //   nomeProjeto: 'Barril de Cerveja',
+  //   descricao: 'Site blog sobre cervejas com sistema de administração, gerenciamento de usuarios e conteudo.',
+  //   tecnologias: [
+  //     tecnologias.html.imagem,
+  //     tecnologias.css.imagem,
+  //     tecnologias.javascript.imagem,
+  //     tecnologias.node.imagem,
+  //     tecnologias.handlebars.imagem,
+  //     tecnologias.mysql.imagem,
+  //   ],
+  //   texto: 'O projeto mais ambicioso da minha vida um site completo, com sistema internos de administração e gerenciamneto de conteudo',
+  //   infos: [
+  //     'Área de adminstração', 'Sistema de Login', 'Registrar novos usuarios', 'Subir imagens', 'Criar novas postagens', 'Sistema de Gerecncimaneto de conteudo', 'Gerenciamnto de usuarios',
+  //   ],
+  //   links: {
+  //     repositorio: 'https://github.com/Epiled/barril-de-cerveja',
+  //     host: 'epiled.github.io/barril-de-cerveja/',
+  //   },
+  //   video: 'barril-de-cerveja/barril-de-cerveja.webm',
+  //   exibir: false,
+  // },
   {
     thumb: 'yellow-battery/thumb-yellow-battery.webp',
     nomeProjeto: 'Yellow Battery',
@@ -39,7 +39,7 @@ const projetos = [
     infos: ['Atualização de tecnologia Bootstrap 3 para 5', 'Remoção de dependencia de jQuery', 'Refatoração para Javascript Vanilla', 'Implentação de PWA'],
     links: {
       repositorio: 'https://github.com/Epiled/yellow-battery',
-      host: 'epiled.github.io/yellow-battery/',
+      host: 'https://epiled.github.io/yellow-battery/',
     },
     video: 'yellow-battery/yellow-battery.webm',
     exibir: false,
@@ -78,7 +78,7 @@ const projetos = [
     infos: ['Dividir o CSS em Modulos', 'Implemnteção de PWA'],
     links: {
       repositorio: 'https://github.com/Epiled/alura-books',
-      host: 'epiled.github.io/alura-books/',
+      host: 'https://epiled.github.io/alura-books/',
     },
     video: 'alura-books/alura-books.webm',
     exibir: false,
@@ -98,7 +98,7 @@ const projetos = [
     infos: ['Aplicação de BEM ao SASS', 'Criação da versão mobile', 'Adição de PWA'],
     links: {
       repositorio: 'https://github.com/Epiled/alura-spa',
-      host: 'epiled.github.io/alura-spa/',
+      host: 'https://epiled.github.io/alura-spa/',
     },
     video: 'alura-spa/alura-spa.webm',
     exibir: false,
@@ -120,7 +120,7 @@ const projetos = [
     infos: ['Atualização do bootstrap 3 para 5', 'Divisão do CSS e modulos', 'Implementação de PWA', 'Remoção de Dependencias jQuery'],
     links: {
       repositorio: 'https://github.com/Epiled/Spotify',
-      host: 'epiled.github.io/Spotify/',
+      host: 'https://epiled.github.io/Spotify/',
     },
     video: 'spotify/spotify.webm',
     exibir: false,
@@ -128,7 +128,7 @@ const projetos = [
   {
     thumb: 'anuda-advocacia/thumb-anuda-advocacia.webp',
     nomeProjeto: 'Anuda Advocacia',
-    descricao: '',
+    descricao: 'Escritorio de Advocancia com foco em "Direito de família e Sucessões".',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -136,7 +136,7 @@ const projetos = [
       tecnologias.php.imagem,
       tecnologias.mysql.imagem,
     ],
-    texto: '',
+    texto: 'Página de Ads com foco em capitar e informar leads sobre "Direito de família e Sucessões", além de uma introdução sobre a advogada e suas carreira.',
     infos: [
       'Aplicação de Lazyload',
       'Aplicação de HTML Sêmantica',
@@ -155,7 +155,7 @@ const projetos = [
   {
     thumb: 'checon/thumb-checon.webp',
     nomeProjeto: 'Checon Equipamentos',
-    descricao: '',
+    descricao: 'Pioneira no ramo de locação de mobiliário, octanorm e climatização de ambientes, 22 anos no mercado.',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -163,7 +163,7 @@ const projetos = [
       tecnologias.php.imagem,
       tecnologias.mysql.imagem,
     ],
-    texto: '',
+    texto: 'Página Ads para uma das primeiras e maiores empresa do ramo de locações e equipamentos. São mais de 30 mil itens entre móveis e acessórios e 22 anos de existência no mercado.',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -182,7 +182,7 @@ const projetos = [
   {
     thumb: 'duster-festas/thumb-duster-festas.webp',
     nomeProjeto: 'Duster Festas',
-    descricao: '',
+    descricao: 'Fábrica de embalagens para atacado, com mais de 30 anos de mercado',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -190,7 +190,7 @@ const projetos = [
       tecnologias.php.imagem,
       tecnologias.mysql.imagem,
     ],
-    texto: '',
+    texto: 'Sua página de Ads muda de acordo com a época do ano para atender as festividades da época e mês, com mais de 30 anos de exitência e consolidada no mercado, sua página de sempre busca demonstrar criatividade, qualidade e profissionalismo',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Atualização de tecnologia para segurança',
@@ -208,7 +208,7 @@ const projetos = [
   {
     thumb: 'elp-movers/thumb-elp-movers.webp',
     nomeProjeto: 'ELP Movers',
-    descricao: '',
+    descricao: 'Empresa Australiano no ramo de mudanças almeja ser a maior do mercado.',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -216,7 +216,7 @@ const projetos = [
       tecnologias.php.imagem,
       tecnologias.mysql.imagem,
     ],
-    texto: '',
+    texto: 'Esse projeto foi muito enriquecedor, foi aplicado toda uma mudança de meta tag e otimizações para o SEO australino, como foram 97 páginas projetas com foco em SEO, logo elas são rápidas e otmizadas, a ELP Movers almejas dominar o mercado de mudanças na Australia, logo ás páginas tem as melhores otimizações possíveis para SEO',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -235,14 +235,14 @@ const projetos = [
   {
     thumb: 'essencial-implantes/thumb-essencial-implantes.webp',
     nomeProjeto: 'Essencial Implantes',
-    descricao: '',
+    descricao: 'A Clínica Essencial Implantes tem um seleto e exigente público alvo.',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
       tecnologias.javascript.imagem,
       tecnologias.php.imagem,
     ],
-    texto: '',
+    texto: 'As páginas de Ads da Essencial Implantes tem como objetivos capitr leads de alto capital, pessoas ricas, famosas e influentes. A empresa é bem rigorosa com suas páginas',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -259,14 +259,14 @@ const projetos = [
   {
     thumb: 'essencial-implantes/thumb-essencial-implantes.webp',
     nomeProjeto: 'Essencial Implantes',
-    descricao: '',
+    descricao: 'Apresentando a nova tecnologia de ponta da clínica',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
       tecnologias.javascript.imagem,
       tecnologias.php.imagem,
     ],
-    texto: '',
+    texto: 'Essa página de Ads, foi desenvolvida com o objetivo de apresentar ao público a qualidade e tecnologia da clínica, focando no seu novo equipamento scanner intraoral',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -284,7 +284,7 @@ const projetos = [
   {
     thumb: 'instituto-do-peso/thumb-instituto-do-peso.webp',
     nomeProjeto: 'Instituto do Peso',
-    descricao: '',
+    descricao: 'O Instituto do Peso é uma clínica especializado em emagrecimento saudável.',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -293,7 +293,7 @@ const projetos = [
       tecnologias.mysql.imagem,
       tecnologias.wordpress.imagem,
     ],
-    texto: '',
+    texto: 'Um dos meus maiores desafios, esse cliente gostaria de aparecer na primeira página da SERP do Google, para atingir esse objetivo foi necessário uma otimização e melhoria na estruutra do site muito robusta e refinada.Na época que esse projeto chegou a mim o instituto aparecia na 3 página da SERP, após meu a aplicação da minha tecnologia e melhorias o objetivo foi concluido e ele chegou aparecer na primeira posição da SERP para a palavra chave Clínica de Emagrecimento.',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -309,7 +309,7 @@ const projetos = [
   {
     thumb: 'larifer/thumb-larifer.webp',
     nomeProjeto: 'Larifér Embalagens',
-    descricao: '',
+    descricao: 'Nova identidade visual para a empresa',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -317,7 +317,7 @@ const projetos = [
       tecnologias.php.imagem,
       tecnologias.mysql.imagem,
     ],
-    texto: '',
+    texto: 'A Larífer passou por uma atualização na sua identidade visual, logo precisou de uma nova página de Ads, mais moderna e bonita',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -333,7 +333,7 @@ const projetos = [
   {
     thumb: 'pedal-place/thumb-pedal-place.webp',
     nomeProjeto: 'Pedal Place',
-    descricao: '',
+    descricao: 'Página dedicada a bicicleta elétrica e seus benéficios',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -342,7 +342,7 @@ const projetos = [
       tecnologias.mysql.imagem,
       tecnologias.pwa.imagem,
     ],
-    texto: '',
+    texto: 'Para anunciar capitar, e informar leads interresados no seu novo produto, a Pedal place optou por utilizar uma página de Ads para demonstrar sua linha de biciletas elétricas e seus benéficios',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -361,7 +361,7 @@ const projetos = [
   {
     thumb: 'rcp-papeis/thumb-rcp-papeis.webp',
     nomeProjeto: 'RCP Papéis',
-    descricao: '',
+    descricao: 'Nova identidade visual para empresa de caixas personalizadas',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -369,7 +369,7 @@ const projetos = [
       tecnologias.php.imagem,
       tecnologias.mysql.imagem,
     ],
-    texto: '',
+    texto: 'A RCP Pápeis fabrica caixas e embalagens de papelão ondulado a partir da matéria-prima de papel reciclado, processado em seu parque industrial.',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
@@ -383,7 +383,7 @@ const projetos = [
   {
     thumb: 'seiko/thumb-seiko.webp',
     nomeProjeto: 'Seiko Química',
-    descricao: '',
+    descricao: 'Seiko é uma nova empresa no ramo de química com raízes no esterior',
     tecnologias: [
       tecnologias.html.imagem,
       tecnologias.css.imagem,
@@ -391,7 +391,7 @@ const projetos = [
       tecnologias.php.imagem,
       tecnologias.mysql.imagem,
     ],
-    texto: '',
+    texto: 'A Seiko optou por utilizar de páginas de Ads para atrair a atenção rápida de investidores e compradores, foi criado um pqueno sistema de sessão par apresentar tipos de produtos',
     infos: [
       'Aplicação de HTML Sêmantica',
       'Aplicações de boas práticas de SEO',
