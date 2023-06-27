@@ -87,8 +87,12 @@ class ProjetoView {
       const artigoItem = document.createElement('li');
       const artigoTecnologia = document.createElement('img');
       artigoTecnologia.classList.add('artigo__tecnologia');
-
-      artigoTecnologia.src = tecnologia;
+console.log(tecnologia)
+      artigoTecnologia.src = tecnologia.imagem;
+      artigoTecnologia.width = '50';
+      artigoTecnologia.height = '50';
+      artigoTecnologia.loading = 'lazy';
+      artigoTecnologia.alt = tecnologia.texto;
 
       artigoItem.appendChild(artigoTecnologia);
       artigoListaTecnologias.appendChild(artigoItem);
