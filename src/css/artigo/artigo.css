@@ -46,12 +46,13 @@
 }
 
 .artigo__txt {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
 }
 
 .artigo__lista {
-  font-size: 2.4rem;
   list-style-position: inside;
+  line-height: 1.6rem;
 }
 
 .artigo__lista--tecnologia {
@@ -94,6 +95,10 @@
   background: var(--cor-fundo-1-75);
 }
 
+.artigo__item {
+  font-size: 1.2rem;
+}
+
 @media screen and (min-width: 768px) {
   .artigo {
     position: fixed;
@@ -110,10 +115,14 @@
   .artigo__midia {
     width: 50%;
   }
+
+  .artigo__txt {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .artigo__item {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 }
