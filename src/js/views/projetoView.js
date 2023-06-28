@@ -18,6 +18,8 @@ class ProjetoView {
     projetoThumb.height = projetoThumb.height;
     projetoThumb.classList.add('projetos__imagem');
 
+    projetoThumb.alt = `Logo do projeto ${projeto.nomeProjeto}`
+
     const projetoIntro = document.createElement('div');
     projetoIntro.classList.add('projetos__intro');
 
@@ -87,7 +89,7 @@ class ProjetoView {
       const artigoItem = document.createElement('li');
       const artigoTecnologia = document.createElement('img');
       artigoTecnologia.classList.add('artigo__tecnologia');
-console.log(tecnologia)
+      
       artigoTecnologia.src = tecnologia.imagem;
       artigoTecnologia.width = '50';
       artigoTecnologia.height = '50';
