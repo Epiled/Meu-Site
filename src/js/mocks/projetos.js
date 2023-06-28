@@ -39,7 +39,7 @@ const projetos = [
     infos: ['Atualização de tecnologia Bootstrap 3 para 5', 'Remoção de dependencia de jQuery', 'Refatoração para Javascript Vanilla', 'Implentação de PWA'],
     links: {
       repositorio: 'https://github.com/Epiled/yellow-battery',
-      host: 'https://epiled.github.io/yellow-battery/',
+      host: 'https://epiled.github.io/yellow-battery/src',
     },
     video: 'yellow-battery/yellow-battery.webm',
     exibir: false,
