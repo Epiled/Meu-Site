@@ -11,6 +11,7 @@
 .habilidades__item {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 12.5rem;
   height: 12.5rem;
   padding: 1rem;
@@ -42,8 +43,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* width: calc(20% - 1.6rem);
-    height: calc(20% - 1.6rem); */
     text-align: center;
     max-width: 10rem;
     max-height: 10rem;
