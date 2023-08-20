@@ -20,6 +20,11 @@
   backdrop-filter: blur(.5rem);
   list-style: none;
   border-radius: 1rem 0;
+  opacity: 0;
+}
+
+.habilidades__item.active {
+  animation: topRevel .5s forwards;
 }
 
 .habilidades__subtitulo {
