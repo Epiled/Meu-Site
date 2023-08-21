@@ -10,6 +10,7 @@ class ProjetoView {
   criaThumbArtigo(projeto) {
     const projetoListaItem = document.createElement('li');
     projetoListaItem.dataset.projetosListaItem = '';
+    projetoListaItem.dataset.animation = '';
     projetoListaItem.classList.add('projetos__item');
 
     const projetoThumb = document.createElement('img');
