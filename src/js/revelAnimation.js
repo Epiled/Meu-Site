@@ -11,12 +11,12 @@ function initAnimaton() {
 
     if (controleAnimacao && i != 0) {
       lista[i - 1].onanimationstart = () => {
-        atualizaEstado();
+        atualizaEstado(item);
         item.dataset.complete = 'true';
       }
 
       if (lista[i - 1].dataset.complete) {
-        atualizaEstado()
+        atualizaEstado(item)
       }
 
       lista[i].onanimationend = () => {
@@ -28,7 +28,7 @@ function initAnimaton() {
       }
 
     } else if (controleAnimacao) {
-      atualizaEstado()
+      atualizaEstado(item)
     }
   });
 }
@@ -37,7 +37,7 @@ function atualizaLista() {
   animaveis = document.querySelectorAll('[data-animation]');
 }
 
-function atualizaEstado() {
+function atualizaEstado(item) {
   item.classList.add('active');
   item.style.animationDelay = `${1 / 10}s`;
 }
