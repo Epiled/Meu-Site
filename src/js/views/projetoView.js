@@ -37,9 +37,10 @@ class ProjetoView {
     projetoTxt.textContent = `${projeto.descricao}`;
     projetoBtn.textContent = `Leia mais...`;
 
-    const projetoArtigo = this.criaConteudoArtigo(projeto);
+    // const projetoArtigo = this.criaConteudoArtigo(projeto);
 
     projetoBtn.addEventListener('click', () => {
+      let projetoArtigo = this.criaConteudoArtigo(projeto)
       this.showArtigo(projetoArtigo);
     });
 
@@ -47,7 +48,7 @@ class ProjetoView {
       projetoTitulo
       , projetoTxt
       , projetoBtn
-      , projetoArtigo
+      // , projetoArtigo
     );
     projetoListaItem.append(projetoThumb, projetoIntro);
 
@@ -56,9 +57,8 @@ class ProjetoView {
 
   criaConteudoArtigo(projeto) {
     // Artigo
-    const artigo = document.createElement('article');
-    artigo.dataset.projetoArtigo = '';
-    artigo.classList.add('artigo');
+    const artigo = document.querySelector('[data-projeto-artigo]');
+    artigo.innerHTML = '';
 
     const artigoGeral = document.createElement('div');
     artigoGeral.classList.add('artigo__geral');
