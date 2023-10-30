@@ -26,7 +26,7 @@ const projetos = [
   {
     thumb: 'yellow-battery/thumb-yellow-battery.webp',
     nomeProjeto: 'Yellow Battery',
-    descricao: 'Site para a banda de Yellow Battery, com infomações sobre os membros da banda e agenda de shows.',
+    descricao: 'Site para a banda de Yellow Battery, com informações sobre os membros da banda e agenda de shows.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -35,8 +35,13 @@ const projetos = [
       tecnologias.mysql,
       tecnologias.pwa,
     ],
-    texto: 'Meu primeiro projeto autoral, criei com o intuito de ser um objeto de estudo após concluir meu primerio curso sobre programação, apesar da sua idade, não deixei ele parado no tempo, fui atalizando sua tecnologia com o passar do tempo como uma forma de treinar a minha refatoração e adaptação',
-    infos: ['Atualização de tecnologia Bootstrap 3 para 5', 'Remoção de dependencia de jQuery', 'Refatoração para Javascript Vanilla', 'Implentação de PWA'],
+    texto: 'Meu primeiro projeto autoral, criei com o intuito de ser um objeto de estudo após concluir meu primeiro curso sobre programação, apesar da sua idade, não deixei ele parado no tempo, fui atualizando sua tecnologia com o passar do tempo como uma forma de treinar a minha refatoração e adaptação',
+    infos: [
+      'Atualização de tecnologia Bootstrap 3 para 5', 
+      'Remoção de dependência de jQuery', 
+      'Refatoração para Javascript Vanilla', 
+      'Implementação de PWA'
+    ],
     links: {
       repositorio: 'https://github.com/Epiled/yellow-battery',
       host: 'https://epiled.github.io/yellow-battery/src',
@@ -54,8 +59,10 @@ const projetos = [
       tecnologias.javascript,
       tecnologias.pwa,
     ],
-    texto: 'Projeto final de um dos cursos da Alura na categoria de Front-End, trouxe algumas melhorias para o projeto final, foi minha primeira experiencia com um site no formato escalavel',
-    infos: ['O CSS foi reestruturado para atender a metodolia de BEM', 'Implemnetação de PWA'],
+    texto: 'Projeto final de um dos cursos da Alura na categoria de Front-End, trouxe algumas melhorias para o projeto final, foi minha primeira experiencia com um site no formato escalável.',
+    infos: [
+      'O CSS foi reestruturado para atender a metodologia de BEM', 'Implementação de PWA'
+    ],
     links: {
       repositorio: 'https://github.com/Epiled/alura-combo',
       host: 'https://epiled.github.io/alura-combo/',
@@ -74,8 +81,11 @@ const projetos = [
       tecnologias.swiper,
       tecnologias.pwa,
     ],
-    texto: 'Projeto final do curso de Front-End da Alura como foco em site responsivo usando de metodologia de mobile first, como todo curso que finalizo gosto de trazer melhorias e modeificações para os projetos',
-    infos: ['Dividir o CSS em Modulos', 'Implemnteção de PWA'],
+    texto: 'Projeto final do curso de Front-End da Alura como foco em site responsivo usando de metodologia de mobile first, como todo curso que finalizo gosto de trazer melhorias e modificações para os projetos.',
+    infos: [
+      'Dividir o CSS em Módulos', 
+      'Implementação de PWA'
+    ],
     links: {
       repositorio: 'https://github.com/Epiled/alura-books',
       host: 'https://epiled.github.io/alura-books/',
@@ -94,8 +104,12 @@ const projetos = [
       tecnologias.sass,
       tecnologias.pwa,
     ],
-    texto: 'Projeto final de um curso de SASS, refatorei o códido final desse curso com o intuito de aplicar metologias de Mobile First a estrutura do site e escrever o código do SASS em uma metologia BEM',
-    infos: ['Aplicação de BEM ao SASS', 'Criação da versão mobile', 'Adição de PWA'],
+    texto: 'Projeto final de um curso de SASS, refatorei o código final desse curso com o intuito de aplicar metodologias de Mobile-First a estrutura do site e escrever o código do SASS em uma metodologia BEM.',
+    infos: [
+      'Aplicação de BEM ao SASS', 
+      'Criação da versão mobile', 
+      'Implementação de PWA'
+    ],
     links: {
       repositorio: 'https://github.com/Epiled/alura-spa',
       host: 'https://epiled.github.io/alura-spa/',
@@ -106,7 +120,7 @@ const projetos = [
   {
     thumb: 'spotify/thumb-spotify.webp',
     nomeProjeto: 'Spotify',
-    descricao: 'Um dos 6 projetos do "Curso completo de Desenvolvimento Web 2018 - Crie 6 projetos"',
+    descricao: 'Um dos 6 projetos do "Curso completo de Desenvolvimento Web 2018 - Crie 6 projetos".',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -116,8 +130,13 @@ const projetos = [
       tecnologias.node,
       tecnologias.pwa,
     ],
-    texto: 'Meu primeiro site feito no portifolio, por ser muito antigo esse projeto passou por diversas atualizações de código e transições de tecnologias',
-    infos: ['Atualização do bootstrap 3 para 5', 'Divisão do CSS e modulos', 'Implementação de PWA', 'Remoção de Dependencias jQuery'],
+    texto: 'Meu primeiro site feito no portfólio, por ser muito antigo esse projeto passou por diversas atualizações de código e transições de tecnologias.',
+    infos: [
+      'Atualização do Bootstrap 3 para 5', 
+      'Divisão do CSS e módulos', 
+      'Implementação de PWA', 
+      'Remoção de dependências do jQuery'
+    ],
     links: {
       repositorio: 'https://github.com/Epiled/Spotify',
       host: 'https://epiled.github.io/Spotify/',
@@ -128,7 +147,7 @@ const projetos = [
   {
     thumb: 'anuda-advocacia/thumb-anuda-advocacia.webp',
     nomeProjeto: 'Anuda Advocacia',
-    descricao: 'Escritorio de Advocancia com foco em "Direito de família e Sucessões".',
+    descricao: 'Escritório de Advocacia com foco em "Direito de família e Sucessões".',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -136,10 +155,10 @@ const projetos = [
       tecnologias.php,
       tecnologias.mysql,
     ],
-    texto: 'Página de Ads com foco em capitar e informar leads sobre "Direito de família e Sucessões", além de uma introdução sobre a advogada e suas carreira.',
+    texto: 'Página de Ads com foco em capitar e informar leads sobre "Direito de família e Sucessões", além de uma introdução sobre a advogada e sua carreira.',
     infos: [
       'Aplicação de Lazyload',
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Atualização de tecnologia para segurança',
       'Aplicações de boas práticas de SEO',
       'Conversão de Imagens para WEBP',
@@ -165,7 +184,7 @@ const projetos = [
     ],
     texto: 'Página Ads para uma das primeiras e maiores empresa do ramo de locações e equipamentos. São mais de 30 mil itens entre móveis e acessórios e 22 anos de existência no mercado.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Atualização de tecnologia para segurança',
       'Conversão de Imagens para WEBP',
@@ -182,7 +201,7 @@ const projetos = [
   {
     thumb: 'duster-festas/thumb-duster-festas.webp',
     nomeProjeto: 'Duster Festas',
-    descricao: 'Fábrica de embalagens para atacado, com mais de 30 anos de mercado',
+    descricao: 'Fábrica de embalagens para atacado, com mais de 30 anos de mercado.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -190,9 +209,9 @@ const projetos = [
       tecnologias.php,
       tecnologias.mysql,
     ],
-    texto: 'Sua página de Ads muda de acordo com a época do ano para atender as festividades da época e mês, com mais de 30 anos de exitência e consolidada no mercado, sua página de sempre busca demonstrar criatividade, qualidade e profissionalismo',
+    texto: 'Sua página de Ads muda de acordo com a época do ano para atender as festividades da época e mês, com mais de 30 anos de existência e consolidada no mercado, sua página de sempre busca demonstrar criatividade, qualidade e profissionalismo.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Atualização de tecnologia para segurança',
       'Aplicações de boas práticas de SEO',
       'Conversão de Imagens para WEBP',
@@ -216,9 +235,9 @@ const projetos = [
       tecnologias.php,
       tecnologias.mysql,
     ],
-    texto: 'Esse projeto foi muito enriquecedor, foi aplicado toda uma mudança de meta tag e otimizações para o SEO australino, como foram 97 páginas projetas com foco em SEO, logo elas são rápidas e otmizadas, a ELP Movers almejas dominar o mercado de mudanças na Australia, logo ás páginas tem as melhores otimizações possíveis para SEO',
+    texto: 'Esse projeto foi muito enriquecedor, foi aplicado toda uma mudança de meta tag e otimizações para o SEO australiano, como foram 97 páginas projetas com foco em SEO, logo elas são rápidas e otimizadas, a ELP Movers almejas dominar o mercado de mudanças na Australia, logo às páginas tem as melhores otimizações possíveis para SEO.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Atualização do sitemap',
       'Adaptação de metas tags para SEO na Australia',
@@ -235,16 +254,16 @@ const projetos = [
   {
     thumb: 'essencial-implantes/thumb-essencial-implantes.webp',
     nomeProjeto: 'Essencial Implantes',
-    descricao: 'A Clínica Essencial Implantes tem um seleto e exigente público alvo.',
+    descricao: 'A Clínica Essencial Implantes tem um seleto e exigente público-alvo.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
       tecnologias.javascript,
       tecnologias.php,
     ],
-    texto: 'As páginas de Ads da Essencial Implantes tem como objetivos capitr leads de alto capital, pessoas ricas, famosas e influentes. A empresa é bem rigorosa com suas páginas',
+    texto: 'As páginas de Ads da Essencial Implantes tem como objetivos capitar leads de alto capital, pessoas ricas, famosas e influentes. A empresa é bem rigorosa com suas páginas.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Conversão de Imagens para WEBP',
       'Correção de cores para acessibilidade',
@@ -259,7 +278,7 @@ const projetos = [
   {
     thumb: 'essencial-implantes/thumb-essencial-implantes.webp',
     nomeProjeto: 'Essencial Implantes',
-    descricao: 'Apresentando a nova tecnologia de ponta da clínica',
+    descricao: 'Apresentando a nova tecnologia de ponta da clínica.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -268,7 +287,7 @@ const projetos = [
     ],
     texto: 'Essa página de Ads, foi desenvolvida com o objetivo de apresentar ao público a qualidade e tecnologia da clínica, focando no seu novo equipamento scanner intraoral',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Conversão de Imagens para WEBP',
       'Conversão de vídeos para WEBM',
@@ -293,9 +312,9 @@ const projetos = [
       tecnologias.mysql,
       tecnologias.wordpress,
     ],
-    texto: 'Um dos meus maiores desafios, esse cliente gostaria de aparecer na primeira página da SERP do Google, para atingir esse objetivo foi necessário uma otimização e melhoria na estruutra do site muito robusta e refinada.Na época que esse projeto chegou a mim o instituto aparecia na 3 página da SERP, após meu a aplicação da minha tecnologia e melhorias o objetivo foi concluido e ele chegou aparecer na primeira posição da SERP para a palavra chave Clínica de Emagrecimento.',
+    texto: 'Um dos meus maiores desafios, esse cliente gostaria de aparecer na primeira página da SERP do Google, para atingir esse objetivo foi necessário uma otimização e melhoria na estrutura do site muito robusta e refinada. Na época que esse projeto chegou a mim o instituto aparecia na 3 página da SERP, após meu a aplicação da minha tecnologia e melhorias o objetivo foi concluído e ele chegou aparecer na primeira posição da SERP para a palavra-chave Clínica de Emagrecimento.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Aplicação de Lazyload',
       'Correção de cores para acessibilidade',
@@ -309,7 +328,7 @@ const projetos = [
   {
     thumb: 'larifer/thumb-larifer.webp',
     nomeProjeto: 'Larifér Embalagens',
-    descricao: 'Nova identidade visual para a empresa',
+    descricao: 'Nova identidade visual para a empresa.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -317,9 +336,9 @@ const projetos = [
       tecnologias.php,
       tecnologias.mysql,
     ],
-    texto: 'A Larífer passou por uma atualização na sua identidade visual, logo precisou de uma nova página de Ads, mais moderna e bonita',
+    texto: 'A Larífer passou por uma atualização na sua identidade visual, logo precisou de uma nova página de Ads, mais moderna e bonita.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Correção de cores para acessibilidade',
       'Diminuição de CLS'
@@ -333,7 +352,7 @@ const projetos = [
   {
     thumb: 'pedal-place/thumb-pedal-place.webp',
     nomeProjeto: 'Pedal Place',
-    descricao: 'Página dedicada a bicicleta elétrica e seus benéficios',
+    descricao: 'Página dedicada a bicicleta elétrica e seus benefícios.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -342,9 +361,9 @@ const projetos = [
       tecnologias.mysql,
       tecnologias.pwa,
     ],
-    texto: 'Para anunciar capitar, e informar leads interresados no seu novo produto, a Pedal place optou por utilizar uma página de Ads para demonstrar sua linha de biciletas elétricas e seus benéficios',
+    texto: 'Para anunciar capitar, e informar leads interessados no seu novo produto, a Pedal Place optou por utilizar uma página de Ads para demonstrar sua linha de bicicletas elétricas e seus benefícios.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Aplicação de Lazyload',
       'Criação do manifesto',
@@ -361,7 +380,7 @@ const projetos = [
   {
     thumb: 'rcp-papeis/thumb-rcp-papeis.webp',
     nomeProjeto: 'RCP Papéis',
-    descricao: 'Nova identidade visual para empresa de caixas personalizadas',
+    descricao: 'Nova identidade visual para empresa de caixas personalizadas.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -369,9 +388,9 @@ const projetos = [
       tecnologias.php,
       tecnologias.mysql,
     ],
-    texto: 'A RCP Pápeis fabrica caixas e embalagens de papelão ondulado a partir da matéria-prima de papel reciclado, processado em seu parque industrial.',
+    texto: 'A RCP Papéis fabrica caixas e embalagens de papelão ondulado a partir da matéria-prima de papel reciclado, processado em seu parque industrial.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
     ],
     links: {
@@ -383,7 +402,7 @@ const projetos = [
   {
     thumb: 'seiko/thumb-seiko.webp',
     nomeProjeto: 'Seiko Química',
-    descricao: 'Seiko é uma nova empresa no ramo de química com raízes no esterior',
+    descricao: 'Seiko é uma nova empresa no ramo de química com raízes no exterior.',
     tecnologias: [
       tecnologias.html,
       tecnologias.css,
@@ -391,9 +410,9 @@ const projetos = [
       tecnologias.php,
       tecnologias.mysql,
     ],
-    texto: 'A Seiko optou por utilizar de páginas de Ads para atrair a atenção rápida de investidores e compradores, foi criado um pqueno sistema de sessão par apresentar tipos de produtos',
+    texto: 'A Seiko optou por utilizar de páginas de Ads para atrair a atenção rápida de investidores e compradores, foi criado um pequeno sistema de sessão par apresentar tipos de produtos.',
     infos: [
-      'Aplicação de HTML Sêmantica',
+      'Aplicação de HTML Semântico',
       'Aplicações de boas práticas de SEO',
       'Aplicação de Lazyload',
       'Diminuição de CLS',
